@@ -1,0 +1,18 @@
+.head-text{
+    color: #222 !important;
+    text-align: center !important;
+    margin: 4vmax !important;
+    font-family: Jost, sans-serif;
+    font-size: 4vmax !important;
+}
+
+@media screen and (max-width: 400px) {
+    .head-text{
+        font-size: 3.5vmax !important;
+    }
+}
+@media screen and (max-width: 250px) {
+    .head-text{
+        font-size: 3vmax !important;
+    }
+}

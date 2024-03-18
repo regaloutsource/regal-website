@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #222; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #303030; 
+}
+
+.primary-text-heading{
+  font-family: "Jost", sans-serif; 
+  font-size: 1.9vmax !important;
+  color: #2c3c63 !important;
+}
+.secondary-text-heading{
+  font-size: 2vmax !important;
+  font-family: "Jost", sans-serif; 
+  text-align: center;
+}
+
+/* Global Glassmorphism Effect */
+.glassmorphism-effect {
+  background: rgba(0, 0, 0, 0.692);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16.5px);
+  -webkit-backdrop-filter: blur(16.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

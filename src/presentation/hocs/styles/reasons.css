@@ -1,0 +1,14 @@
+.reasons-desp-text{
+    font-size: 1.5vmax !important;
+    font-family: "Jost", sans-serif; 
+}
+.reason-flex-box{
+    /* background-image: linear-gradient(to right, #fff, #d4f7d4c6); */
+    margin: 2vmax auto;
+    width: 80%;
+    border-radius: 200px;
+    padding: 2vmax 4vmax;
+}
+.reasons-img{
+    border-radius: 100px;
+}

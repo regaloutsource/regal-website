@@ -10,10 +10,13 @@ const Expertise = () => {
     <Col span={24} style={{marginBottom: "5%" }}>
     <Heading title="Our Expertise" />
     <Row gutter={[0, 30]}>
+      <span id="span1" className="span"></span>
+      <span id="span2" className="span"></span>
+      <span id="span3" className="span"></span>
       {
         ExpertiseData.map((item: ExpertiseInterface, index: number) => {
           return(
-            <Suspense fallback="" key={index}>
+            <Suspense  fallback="" key={index}>
               <ExpertiseBox icon={item.icon} title={item.title} content={item.content} />
             </Suspense>
           )

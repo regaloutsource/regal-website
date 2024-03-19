@@ -1,50 +1,17 @@
 .expertise-col{
     padding: 2vmax;
     border-radius: 20px;
-    background: linear-gradient(145deg, #f3f3f3, #e8e8e8);
-    box-shadow:  7px 7px 13px #bbbbbb,
-                 -7px -7px 13px #f7f7f7;
     margin: auto;
     cursor: pointer;
 }
 .expertise-col:hover{
-    background: linear-gradient(145deg, #dbdbdb, #ffffff);
-    box-shadow:  7px 7px 13px #cacaca,
-                -7px -7px 13px #ffffff;
+    background: rgba(255, 255, 255, 0.692);
 }
 .icon-box{
     padding: 2vmax;
-    background: rgba(255, 255, 255, 0.68);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(182, 187, 255, 0.37);
     backdrop-filter: blur( 8.5px );
     -webkit-backdrop-filter: blur( 8.5px );
     border-radius: 100px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-}
-
-@media screen and (min-width: 1200px) {
-    .expertise-col{
-        /* height: 30vmax; */
-    }    
-}
-@media screen and (min-width: 1050px) {
-    .expertise-col{
-        /* height: 35vmax; */
-    }    
-}
-@media screen and (min-width: 600px) {
-    .expertise-col{
-        /* height: 40vmax; */
-    }    
-}
-@media screen and (min-width: 400px) {
-    .expertise-col{
-        /* height: 30vmax; */
-    }    
-}
-@media screen and (min-width: 250px) {
-    .expertise-col{
-        /* height: 35vmax; */
-    }    
 }

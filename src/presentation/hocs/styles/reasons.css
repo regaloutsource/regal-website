@@ -3,12 +3,15 @@
     font-family: "Jost", sans-serif; 
 }
 .reason-flex-box{
-    /* background-image: linear-gradient(to right, #fff, #d4f7d4c6); */
     margin: 2vmax auto;
     width: 80%;
     border-radius: 200px;
     padding: 2vmax 4vmax;
 }
 .reasons-img{
-    border-radius: 100px;
+    border-radius: 500px;
+}
+.reason-number{
+    font-family: "Jost", sans-serif; 
+    color: rgb(2, 61, 42) !important;
 }

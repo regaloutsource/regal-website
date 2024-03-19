@@ -9,8 +9,8 @@ type IServices = {
 }
 const ServicesBox: React.FC<IServices> = ({ data }) => {
   return (
-        <Col span={24} className="services-col">
-            <Image preview={false} src={data.icon} alt='icon' width={70} />
+        <Col span={24} className="services-col glassmorphism-effect-light">
+            <Image preview={false} className="services-icons glassmorphism-effect-light" src={data.icon} alt='icon' width={100} />
             <Typography.Text className="primary-text-heading" style={{ marginTop: "1vmax" }}>{data.title}</Typography.Text>
             <Typography.Text className="services-secondary-text">{data.desp}</Typography.Text>
         </Col>

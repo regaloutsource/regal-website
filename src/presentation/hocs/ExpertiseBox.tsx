@@ -9,7 +9,7 @@ type IExpertiseType = {
 }
 const ExpertiseBox: React.FC<IExpertiseType> = ({ icon, title, content }) => {
   return (
-      <Col  span={20} className="expertise-col">
+      <Col  span={20} className="expertise-col glassmorphism-effect-light">
         <Flex align="center" justify="space-evenly">
           <div className="icon-box"><Image src={icon} preview={false} className="expertise-icon" alt={`${title}-icon`} width={100} /></div>
           <div style={{ width: "70%" }}>

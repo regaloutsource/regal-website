@@ -10,7 +10,7 @@ const TechStack = () => {
     {
       TechStackData.map((item: string, index: number) => {
         return(
-          <Col key={index} className="tech-stack-col glassmorphism-effect">
+          <Col key={index} className="tech-stack-col glassmorphism-effect-light">
             <Image preview={false} src={item} alt='tech-icon' />
           </Col>
         )

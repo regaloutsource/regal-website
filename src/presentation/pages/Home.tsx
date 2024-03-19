@@ -1,15 +1,14 @@
-import React, { Suspense } from 'react'
 import { Col, Divider, Image, Row, Typography } from 'antd'
 import bgVideo from "../../assets/bgVideo.mp4";
 import logo from "../../assets/regal_outsource_logo.svg"
+import Expertise from '../components/Expertise/Expertise';
+import Reasons from '../components/Reasons/Reasons';
+import Services from '../components/Services/Services';
+import TechStack from '../components/TechStack/TechStack';
+import Footer from '../components/Footer/Footer';
 import "./styles/home.css"
 
 const Home = () => {
-  const Expertise = React.lazy(() => import("../components/Expertise/Expertise"))
-  const Reasons = React.lazy(() => import("../components/Reasons/Reasons"))
-  const Services = React.lazy(() => import("../components/Services/Services"))
-  const TechStack = React.lazy(() => import("../components/TechStack/TechStack"))
-
   return (
     <Row>
       {/* Hero Section */}
@@ -17,7 +16,7 @@ const Home = () => {
         <video className='video-tag' autoPlay loop muted>
           <source src={bgVideo} type='video/mp4' />
         </video>
-        <div className='heading-overlay glassmorphism-effect'>
+        <div className='heading-overlay glassmorphism-effect-dark'>
           <Col>
               <Image preview={false} src={logo} alt="regal_logo" id="logo" width={100}  />
           </Col>
@@ -29,18 +28,23 @@ const Home = () => {
       </Col>
 
       {/* Expertise Section */}
-      <Suspense fallback="" ><Expertise /></Suspense>
+      <Expertise />
+      <Divider />
 
       {/* Why Choose Section */}
-      <Suspense fallback="" > <Reasons /> </Suspense>
+       <Reasons /> 
       <Divider />
 
       {/* Services */}
-      <Suspense fallback="" ><Services /></Suspense>
+      <Services />
       <Divider />
 
       {/* Tech Stack */}
-      <Suspense fallback=""><TechStack /></Suspense>
+      <TechStack />
+      <Divider />
+
+      {/* Footer */}
+      <Footer />
     </Row>
   )
 }

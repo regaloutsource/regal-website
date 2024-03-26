@@ -1,6 +1,6 @@
-import reasonOne from "../../assets/reason-one.jpg"
-import reasonTwo from "../../assets/reason-two.jpg"
-import reasonThree from "../../assets/reason-three.jpg"
+import reasonOne from "../../assets/icons/reasons/reason-one.jpg"
+import reasonTwo from "../../assets/icons/reasons/reason-two.jpg"
+import reasonThree from "../../assets/icons/reasons/reason-three.jpg"
 
 export const ReasonsData = [
     {

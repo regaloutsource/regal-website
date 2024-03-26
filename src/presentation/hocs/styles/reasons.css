@@ -1,6 +1,5 @@
 .reasons-desp-text{
     font-size: 1.5vmax !important;
-    font-family: "Jost", sans-serif; 
 }
 .reason-flex-box{
     margin: 2vmax auto;
@@ -12,6 +11,5 @@
     border-radius: 500px;
 }
 .reason-number{
-    font-family: "Jost", sans-serif; 
     color: rgb(2, 61, 42) !important;
 }

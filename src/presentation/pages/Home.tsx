@@ -41,7 +41,6 @@ const Home = () => {
 
       {/* Tech Stack */}
       <TechStack />
-      <Divider />
 
       {/* Footer */}
       <Footer />

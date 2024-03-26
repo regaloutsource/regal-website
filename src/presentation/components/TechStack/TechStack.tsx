@@ -4,7 +4,7 @@ import { TechStackData } from '../../../domain/constants/TechStackData'
 
 const TechStack = () => {
   return (
-    <Col span={24}>
+    <Col span={24} style={{marginBottom: "5vmax"}}>
     <Heading title="Tech Stack" />
     <Row className="tech-stack-row">
     {

@@ -7,6 +7,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-family: Jost, sans-serif !important;
+  
 }
 
 ::-webkit-scrollbar {
@@ -28,13 +30,11 @@
 }
 
 .primary-text-heading{
-  font-family: "Jost", sans-serif; 
   font-size: 1.9vmax !important;
   color: #2c3c63 !important;
 }
 .secondary-text-heading{
   font-size: 2vmax !important;
-  font-family: "Jost", sans-serif; 
   text-align: center;
 }
 

@@ -34,7 +34,7 @@ const FooterForm = () => {
     return (
         <Col>
             <Typography.Title className="footer-title-text footer-form-heading">Got ideas? We've got the skills. <br /> Let's team up.</Typography.Title>
-            <Typography.Title className="footer-form-sub-text">Tell us more about yourself and what you're got in mind.</Typography.Title>
+            <Typography.Title className="footer-form-sub-text">Tell us more about yourself and what you've got in mind.</Typography.Title>
 
             <Form
                 name="userdata"

@@ -11,7 +11,7 @@ export const FooterData = [
         icon: <HomeOutlined style={{ color: "#eee", fontSize: "2vmax" }} />,
         title: "Visit us",
         subtitle: "Come say hello at our office HQ",
-        value: "F-39(B), I.T.Park, M.I.A. (Extn.),Madri Udaipur - 313003, Rajasthan, India"
+        value: "F-39(B), I.T.Park, M.I.A. (Extn.), Madri Udaipur - 313003, Rajasthan, India"
     },
     {
         icon: <PhoneOutlined style={{ color: "#eee", fontSize: "2vmax" }} />,

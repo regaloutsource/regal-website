@@ -1,0 +1,9 @@
+.tech-stack-row{
+    width: 60%;
+    margin: auto;
+  }
+  .tech-stack-col{
+    text-align: center;
+    margin: .6vmax auto;
+    border-radius: 16px;
+  }

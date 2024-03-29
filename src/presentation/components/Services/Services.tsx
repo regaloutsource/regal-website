@@ -8,13 +8,9 @@ const Services = () => {
   return (
     <Col span={24} className="nth-col">
     <SubSectionHeading title="Services we offer" subTitle="From custom software to UI/UX design, we deliver top-tier solutions, empowering you to focus on your core business" />
-
     <Row>
-      <span id="span2" className="span"></span>
-      <span id="span3" className="span"></span>
-    <span id="span1" className="span"></span>
       {ServicesData.map((item, index: number) => (
-        <Col key={index} span={8}>
+        <Col key={index} span={6}>
           <Suspense fallback="">
             <ServicesBox data={item} />
           </Suspense>

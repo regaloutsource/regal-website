@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Typography, Row, Image, Button } from 'antd'
 import bgVideo from "../../../assets/bgVideo.mp4";
 import logo from "../../../assets/regal_outsource_logo.svg"

@@ -3,15 +3,39 @@
     border-radius: 20px;
     margin: auto;
     cursor: pointer;
+    width: 80% !important;
 }
 .expertise-col:hover{
     background: rgba(255, 255, 255, 0.692);
 }
-.icon-box{
+.icon-box {
     padding: 2vmax;
+    width: 10%;
     box-shadow: 0 8px 32px 0 rgba(182, 187, 255, 0.37);
     backdrop-filter: blur( 8.5px );
     -webkit-backdrop-filter: blur( 8.5px );
     border-radius: 100px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* Responsive */
+@media screen and (max-width: 426px) {
+    .icon-box{
+        width: 25%;
+        padding: 3vmax;
+    }
+    .expertise-content{
+        font-size: 1.8vmax;
+    }
+    .expertise-col{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 376px) {
+    .expertise-content{
+        font-size: 1.4vmax;
+    }
+    .expertise-col{
+        width: 85% !important;
+    }
 }

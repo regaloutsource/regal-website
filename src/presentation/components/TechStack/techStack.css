@@ -2,8 +2,23 @@
     width: 60%;
     margin: auto;
   }
+  .tech-imgs {
+    width: 100px !important;
+  }
   .tech-stack-col{
-    text-align: center;
     margin: .6vmax auto;
     border-radius: 16px;
   }
+
+  /* Responsive */
+  @media screen and (max-width: 769px) {
+      .tech-imgs{
+        width: 80px !important;
+      }
+  }
+
+  @media screen and (max-width: 426px) {
+    .tech-imgs{
+      width: 50px !important;
+    }
+}

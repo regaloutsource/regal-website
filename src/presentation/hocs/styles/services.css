@@ -7,6 +7,12 @@
     flex-direction: column;
     cursor: pointer;
 }
+.services-primary-text{
+    text-align: center;
+    margin-top: 2vmax;
+    font-size: 1.8vmax;
+    font-weight: 600;
+}
 .services-secondary-text{
     font-size: 1vmax;
     margin-top: .6vmax;
@@ -14,8 +20,30 @@
 }
 .services-icons{
     position: absolute;
-    left: 50%;
+    left: 60%;
     bottom: 10%;
     border-radius: 100px;
     border: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 769px) {
+    .services-icons{
+        width: 60px !important;
+    }   
+}
+
+@media screen and (max-width: 426px) {
+    .services-icons{
+        width: 40px !important;
+    } 
+    .services-secondary-text{
+        font-size: 1.3vmax;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .services-icons{
+        left: 40%;
+    }
 }

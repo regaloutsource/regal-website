@@ -10,7 +10,7 @@ const Services = () => {
     <SubSectionHeading title="Services we offer" subTitle="From custom software to UI/UX design, we deliver top-tier solutions, empowering you to focus on your core business" />
     <Row>
       {ServicesData.map((item, index: number) => (
-        <Col key={index} span={6}>
+        <Col key={index} xs={12} md={8} lg={6}>
           <Suspense fallback="">
             <ServicesBox data={item} />
           </Suspense>

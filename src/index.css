@@ -90,3 +90,13 @@
   50% { left: 0; }
   100% { left: calc(80% - 35px); }
 }
+
+/* Responsive */
+@media screen and (max-width: 769px) {
+  .primary-text-heading{
+    font-size: 2.4vmax !important;
+  }
+}
+@media screen and (max-width: 426px) {
+
+}

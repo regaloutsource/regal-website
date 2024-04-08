@@ -9,12 +9,11 @@ const Hero = () => {
         <Row className="hero-section-row">
             <Col span={10}>
             <video
-            width="100%"
-            height="auto"
-            autoPlay
-            loop
-            muted
-        >
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted>
                     <source src={bgVideo} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

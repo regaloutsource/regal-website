@@ -7,18 +7,18 @@ import "./techStack.css"
 const TechStack = () => {
   return (
     <Col span={24} style={{marginBottom: "5vmax"}}>
-    <Heading title="Tech Stack" />
-    <Row className="tech-stack-row">
-    {
-      TechStackData.map((item: string, index: number) => {
-        return(
-          <Col key={index} className="tech-stack-col glassmorphism-effect-dark">
-            <Image preview={false} src={item} alt='tech-icon' />
-          </Col>
-        )
-      })
-    }
-    </Row>
+      <Heading title="Tech Stack" />
+      <Row className="tech-stack-row">
+      {
+        TechStackData.map((item: string, index: number) => {
+          return(
+            <Col key={index} className="tech-stack-col glassmorphism-effect-dark">
+              <Image preview={false} src={item} alt='tech-icon' className="tech-imgs" />
+            </Col>
+          )
+        })
+      }
+      </Row>
 </Col>
   )
 }

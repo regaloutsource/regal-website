@@ -12,12 +12,7 @@ export const ServicesData = [
         title: "Web App Development",
         desp: "Web development involves planning, UI design, server logic, testing, deployment, security, optimization, maintenance, and SEO.",
         icon: web
-    },
-    {
-        title: "Mobile App Development",
-        desp: "Mobile app development includes defining objectives, research, tech selection, UI design, coding, testing, deployment, marketing, maintenance, and analytics for enhancement.",
-        icon: mobile
-    },   {
+    },  {
         title: "Automation",
         desp: "Automation utilizes technology to streamline processes, reduce manual labor, and enhance efficiency across industries, driving cost savings and productivity gains.",
         icon: automation
@@ -45,5 +40,10 @@ export const ServicesData = [
         title: "Data Processing ",
         desp: "Data processing converts raw data into actionable insights through collection, validation, organization, and analysis, supporting decision-making across industries.",
         icon: dataProcess
-    }
+    },
+    {
+        title: "Mobile App Development",
+        desp: "Mobile app development includes defining objectives, research, tech selection, UI design, coding, testing, deployment, marketing, maintenance, and analytics for enhancement.",
+        icon: mobile
+    },
 ]

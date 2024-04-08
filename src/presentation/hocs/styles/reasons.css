@@ -13,3 +13,16 @@
 .reason-number{
     color: rgb(2, 61, 42) !important;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 426px) {
+    .reasons-desp-text {
+        font-size: 1.2vmax !important;
+    }
+}
+@media screen and (max-width: 321px) {
+    .reasons-desp-text {
+        font-size: 1.1vmax !important;
+    }
+}

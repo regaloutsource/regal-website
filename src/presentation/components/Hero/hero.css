@@ -45,13 +45,14 @@
   
   @media screen and (max-width: 769px) {
     .heading-text {
-      font-size: 4vmax !important;
+      font-size: 4.3vmax !important;
     }
     .sub-heading-text {
-      font-size: 1.2vmax;
+      font-size: 1.5vmax;
     }
   }
 
+  /* Responsive */
   @media screen and (max-width: 600px) {
     .heading-text {
       font-size: 3vmax !important;

@@ -38,7 +38,6 @@ const FooterForm = () => {
 
             <Form
                 name="userdata"
-                // wrapperCol={{ span: 16 }}
                 style={{ maxWidth: 600, marginTop: 30 }}
                 initialValues={{ remember: true }}
                 onFinish={onFinish}
@@ -71,7 +70,7 @@ const FooterForm = () => {
                     label="How can we help ?"
                 >
                 </Form.Item>
-                    <CheckboxGroup options={FooterFormData} value={checkedList} onChange={onCheckBoxChange} />
+                <CheckboxGroup options={FooterFormData} value={checkedList} onChange={onCheckBoxChange} />
                 
 
                 <Form.Item style={{ display: "flex", justifyContent: "center" }}>

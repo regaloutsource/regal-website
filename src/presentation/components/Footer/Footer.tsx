@@ -11,8 +11,8 @@ import "./footer.css"
 const Footer = () => {
 
     return (
-        <Row className="footer-row">
-            <Col span={10} className="footer-col1-parent">
+        <Row className="footer-row" gutter={[0, 20]}>
+            <Col xs={24} md={18} lg={10} className="footer-col1-parent">
                 <Col>
                     {
                         FooterData.map((item, index: number) => {
@@ -22,14 +22,15 @@ const Footer = () => {
                         })
                     }
                 </Col>
-                <Col>
-                    <Image src={facebook} preview={false} className="footer-social-icon" width={40} alt="social-icon" />
-                    <Image src={instagram} preview={false} className="footer-social-icon" width={40} alt="social-icon" />
-                    <Image src={linkedin} preview={false} className="footer-social-icon" width={40} alt="social-icon" />
-                </Col>
+                
             </Col>
-            <Col span={14} className="glassmorphism-effect-light footer-col2">
+            <Col xs={24} lg={14} className="glassmorphism-effect-light footer-col2">
                 <FooterForm />
+            </Col>
+            <Col span={24}>
+                <Image src={facebook} preview={false} className="footer-social-icon" alt="social-icon" />
+                <Image src={instagram} preview={false} className="footer-social-icon" alt="social-icon" />
+                <Image src={linkedin} preview={false} className="footer-social-icon" alt="social-icon" />
             </Col>
         </Row>
     )

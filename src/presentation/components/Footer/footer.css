@@ -43,6 +43,7 @@
 }
 .footer-social-icon{
     cursor: pointer;
+    width: 50px !important;
 }
 .footer-form-btn{
     background-color: #93c734;
@@ -76,4 +77,51 @@
 }
 .ant-checkbox+span{
     color: #eee !important;
+}
+
+/* Responsive */
+@media screen and (max-width: 426px) {
+    .footer-title-text{
+        font-size: 3vmax !important;
+    }
+    .footer-form-heading{
+        font-size: 2.4vmax !important;
+    }
+    .footer-form-sub-text{ 
+        font-size: 1.7vmax !important;
+    }
+    .footer-sub-text{
+        font-size: 2.7vmax !important;
+    }
+    .footer-value-text{
+        font-size: 2.2vmax;
+    }
+    .footer-social-icon{
+        width: 30px !important;
+    }
+    .footer-form-input{
+        font-size: 2vmax !important;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .footer-title-text{
+        font-size: 3vmax !important;
+    }
+    .footer-form-sub-text{ 
+        font-size: 2vmax !important;
+    }
+    .footer-sub-text{
+        font-size: 2.5vmax !important;
+    }
+    .footer-value-text{
+        font-size: 2vmax;
+    }
+    .footer-form-input{
+        font-size: 2.5vmax !important;
+    }
+    .footer-form-btn{
+        padding: .8vmax 5vmax;
+        font-size: 2.5vmax;
+    }
 }

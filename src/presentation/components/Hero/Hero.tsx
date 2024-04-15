@@ -22,9 +22,9 @@ const Hero = () => {
             <Col span={14} className="hero-section-col">
                 <Image preview={false} src={logo} alt="regal_logo" id="logo" width={100}  />
                 <Typography.Title className="heading-text">Regal Outsource</Typography.Title>
-                <Typography.Text className="sub-heading-text">
+                <Typography.Paragraph className="sub-heading-text">
                     We are Programmed for delivering Quality and Excellence.
-                </Typography.Text> <br />
+                </Typography.Paragraph> <br />
                 <Button className="hero-section-btn">Contact us</Button>
             </Col>
         </Row>

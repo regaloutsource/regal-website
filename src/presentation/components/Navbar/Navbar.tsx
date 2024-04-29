@@ -1,6 +1,7 @@
 import { Col } from 'antd'
 
 import "./navbar.css"
+import { pageRoutes } from '../../../routes/pageRoute'
 
 const Navbar = () => {
     return (
@@ -17,10 +18,10 @@ const Navbar = () => {
                     </Col> */}
                     <Col className="menu-items glassmorphism-effect-dark">
                         <li>
-                            <a href="#">Home</a>
+                            <a href={pageRoutes.HOME}>Home</a>
                         </li>
                         <li>
-                            <a href="#">about</a>
+                            <a href={pageRoutes.ABOUT}>about</a>
                         </li>
                         <li>
                             <a href="#">blogs</a>
@@ -29,7 +30,7 @@ const Navbar = () => {
                             <a href="#">portfolio</a>
                         </li>
                         <li>
-                            <a href="#">contact</a>
+                            <a href={pageRoutes.CONTACT}>contact</a>
                         </li>
                     </Col>
                 </div>

@@ -3,6 +3,11 @@
     text-align: center !important;
     /* margin: 4vmax !important; */
     font-size: 4vmax !important;
+     background-image: url(
+"https://media.geeksforgeeks.org/wp-content/uploads/20231218222854/1.png");
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 400px) {

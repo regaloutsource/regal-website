@@ -1,0 +1,11 @@
+.contact-main-col {
+    text-align: center;
+    padding: 2vmax 1vmax;
+}
+.contact-texts{
+    margin: 1vmax;
+    -webkit-user-select: text; 
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}

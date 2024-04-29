@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { Col, Flex, Row, Typography } from 'antd'
 import { HomeOutlined, PhoneOutlined, MailOutlined } from "@ant-design/icons"
 import Heading from '../hocs/Heading'

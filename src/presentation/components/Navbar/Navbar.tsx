@@ -18,10 +18,10 @@ const Navbar = () => {
                     </Col> */}
                     <Col className="menu-items glassmorphism-effect-dark">
                         <li>
-                            <a href={pageRoutes.HOME}>Home</a>
+                            <a href={`https://regal-website-lyart.vercel.app/${pageRoutes.HOME}`}>Home</a>
                         </li>
                         <li>
-                            <a href={pageRoutes.ABOUT}>about</a>
+                            <a href={`https://regal-website-lyart.vercel.app/${pageRoutes.ABOUT}`}>about</a>
                         </li>
                         <li>
                             <a href="#">blogs</a>

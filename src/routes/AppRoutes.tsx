@@ -7,6 +7,7 @@ const LayoutPage = React.lazy(() => import("../presentation/pages/LayoutPage"))
 const Home = React.lazy(() => import("../presentation/pages/Home"))
 const About = React.lazy(() => import("../presentation/pages/About"))
 const Contact = React.lazy(() => import("../presentation/pages/Contact"))
+const Gallery = React.lazy(() => import("../presentation/pages/Gallery"))
 
 function AppRoutes() {
     // initialize a browser router
@@ -22,6 +23,10 @@ function AppRoutes() {
       {
         path: pageRoutes.CONTACT,
         element: <Suspense fallback=""><LayoutPage Children={<Contact />} /></Suspense>,
+      },
+      {
+        path: pageRoutes.GALLERY,
+        element: <Suspense fallback=""><LayoutPage Children={<Gallery />} /></Suspense>,
       },
     ])
   

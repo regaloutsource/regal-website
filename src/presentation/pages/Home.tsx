@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   return (
-    <Row>
+    <Row gutter={[0, 50]}>
       {/* Hero Section */}
       <Hero />
 

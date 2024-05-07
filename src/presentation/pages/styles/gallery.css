@@ -1,0 +1,11 @@
+.gallery-main-col {
+    text-align: center;
+    padding: 2vmax 1vmax;
+}
+
+.regal-img-col{
+    margin: 5vmax auto;
+    padding: 2vmax;
+    border-radius: 20px;
+    cursor: pointer;
+}

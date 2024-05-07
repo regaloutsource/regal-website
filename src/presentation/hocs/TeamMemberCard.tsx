@@ -10,8 +10,8 @@ type ITeamCard = {
 const TeamMemberCard: React.FC<ITeamCard> = ({ teamData }) => {
   return (
     <Col span={24} className="team-card-col glassmorphism-effect-light">
-        <Image src={teamData.image} alt={teamData.name} preview={false} height={200} />
-        <Typography.Title>{teamData.name}</Typography.Title>
+        <Image src={teamData.image} alt={teamData.name} preview={false} />
+        <Typography.Title className="team-member-name-text">{teamData.name}</Typography.Title>
         <Typography.Text>{teamData.desp}</Typography.Text>
     </Col>
   )

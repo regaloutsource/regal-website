@@ -23,11 +23,11 @@ const Navbar = () => {
                         <li>
                             <a href={pageRoutes.ABOUT}>about</a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="#">blogs</a>
-                        </li>
+                        </li> */}
                         <li>
-                            <a href="#">portfolio</a>
+                            <a href={pageRoutes.GALLERY}>Gallery</a>
                         </li>
                         <li>
                             <a href={pageRoutes.CONTACT}>contact</a>

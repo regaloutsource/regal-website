@@ -1,4 +1,9 @@
 .team-card-col{
     padding: 1vmax;
     border-radius: 10px;
+    text-align: center;
+}
+.team-member-name-text{
+    font-size: 2vmax !important;
+    margin-top: 1vmax;
 }

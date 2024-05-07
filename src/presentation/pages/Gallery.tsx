@@ -3,6 +3,7 @@ import Heading from '../hocs/Heading'
 import { RegalPhotos } from '../../domain/constants/RegalPhotos'
 
 import "./styles/gallery.css"
+import Footer from '../components/Footer/Footer'
 
 const Gallery = () => {
     return (
@@ -23,6 +24,10 @@ const Gallery = () => {
                         )
                     })
                 }
+            </Col>
+
+            <Col>
+                <Footer />
             </Col>
         </Row>
     )

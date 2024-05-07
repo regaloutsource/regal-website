@@ -5,6 +5,14 @@ import { pageRoutes } from '../../../routes/pageRoute'
 
 const Navbar = () => {
     return (
+        // <Col span={24}>
+        //      <ul className="nav-links">
+        //         <li className="forward"><a href={pageRoutes.HOME}>HOME</a></li>
+        //         <li className="forward"><a href={pageRoutes.ABOUT}>About</a></li>
+        //         <li className="forward"><a href={pageRoutes.GALLERY}>Gallery</a></li>
+        //         <li className="forward"><a href={pageRoutes.CONTACT}>Contact</a></li>
+        //     </ul>
+        // </Col>
             <Col className="navbar" span={24}>
                 <div className="nav-container">
                     <input className="checkbox" type="checkbox" name="" />
